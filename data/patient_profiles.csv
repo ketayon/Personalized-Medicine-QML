@@ -1,0 +1,117 @@
+PatientId,Age,Tumor_Stage,Hormone_Receptor_Status,HER2_Status,Genetic_Risk_Score,Recommended_Treatment
+0000001,84,Stage I,Positive,Negative,0.7281887562036033,Chemotherapy
+0000002,31,Stage II,Positive,Positive,0.49549131620619846,Hormonal Therapy
+0000003,43,Stage II,Positive,Negative,0.688402396427736,Targeted Therapy
+0000004,82,Stage IV,Positive,Negative,0.4348273386037462,Targeted Therapy
+0000005,69,Stage II,Negative,Positive,0.2464020332391068,Chemotherapy
+0000006,69,Stage III,Negative,Positive,0.8191023176741997,Chemotherapy
+0000007,80,Stage I,Negative,Positive,0.7994158789689793,Targeted Therapy
+0000008,68,Stage I,Positive,Positive,0.6946964708544268,Radiation Therapy
+0000009,80,Stage III,Negative,Negative,0.2721451372299627,Hormonal Therapy
+0000010,35,Stage II,Negative,Negative,0.5902306668690871,Chemotherapy
+0000011,35,Stage III,Negative,Positive,0.3609738969400268,Chemotherapy
+0000012,32,Stage III,Positive,Negative,0.09158207332663415,Targeted Therapy
+0000013,36,Stage IV,Positive,Negative,0.9173135754622428,Hormonal Therapy
+0000014,80,Stage III,Positive,Negative,0.1368186309189614,Targeted Therapy
+0000015,37,Stage I,Negative,Negative,0.9502373538208024,Hormonal Therapy
+0000016,71,Stage III,Negative,Positive,0.44600577295795574,Hormonal Therapy
+0000017,81,Stage I,Negative,Positive,0.18513292883861965,Hormonal Therapy
+0000018,44,Stage I,Positive,Negative,0.5419009473783581,Chemotherapy
+0000019,76,Stage I,Positive,Positive,0.8729458358764083,Radiation Therapy
+0000020,58,Stage II,Negative,Positive,0.7322248864095612,Targeted Therapy
+0000021,62,Stage IV,Positive,Positive,0.8065611478614497,Radiation Therapy
+0000022,81,Stage I,Positive,Negative,0.6587833667107174,Targeted Therapy
+0000023,59,Stage I,Positive,Negative,0.6922765645178525,Hormonal Therapy
+0000024,68,Stage II,Positive,Negative,0.8491956515653193,Chemotherapy
+0000025,56,Stage I,Negative,Positive,0.24966800885918594,Radiation Therapy
+0000026,65,Stage III,Positive,Negative,0.4894249636431405,Chemotherapy
+0000027,58,Stage III,Positive,Negative,0.22120944181960223,Targeted Therapy
+0000028,67,Stage IV,Positive,Positive,0.987668007996647,Chemotherapy
+0000029,62,Stage I,Positive,Negative,0.9440593396866133,Chemotherapy
+0000030,66,Stage II,Negative,Negative,0.0394268113685059,Radiation Therapy
+0000031,56,Stage III,Negative,Positive,0.7055751725156885,Hormonal Therapy
+0000032,84,Stage II,Positive,Positive,0.9252483174156658,Chemotherapy
+0000033,62,Stage II,Positive,Positive,0.18057534512733353,Hormonal Therapy
+0000034,33,Stage III,Positive,Negative,0.5679452305526295,Targeted Therapy
+0000035,51,Stage II,Positive,Negative,0.9154882975880418,Chemotherapy
+0000036,31,Stage III,Positive,Negative,0.03394597858579884,Radiation Therapy
+0000037,39,Stage II,Positive,Positive,0.6974202672468399,Targeted Therapy
+0000038,34,Stage III,Negative,Positive,0.29734900737255077,Targeted Therapy
+0000039,39,Stage I,Positive,Negative,0.9243961953765304,Radiation Therapy
+0000040,62,Stage IV,Negative,Negative,0.9710582451653678,Chemotherapy
+0000041,83,Stage III,Negative,Positive,0.9442664891134339,Chemotherapy
+0000042,67,Stage III,Positive,Positive,0.47421421665746377,Targeted Therapy
+0000043,42,Stage IV,Negative,Positive,0.8620426509893134,Chemotherapy
+0000044,60,Stage III,Negative,Positive,0.8445493985350704,Hormonal Therapy
+0000045,76,Stage III,Negative,Negative,0.31910047324325563,Radiation Therapy
+0000046,65,Stage II,Negative,Positive,0.8289154741506773,Hormonal Therapy
+0000047,74,Stage IV,Negative,Negative,0.03700763471549262,Chemotherapy
+0000048,53,Stage I,Negative,Negative,0.596269878482053,Targeted Therapy
+0000049,81,Stage III,Positive,Negative,0.23000883728770305,Radiation Therapy
+0000050,44,Stage IV,Negative,Positive,0.12056688577727881,Chemotherapy
+0000051,58,Stage II,Negative,Positive,0.07695320162920916,Chemotherapy
+0000052,37,Stage I,Negative,Positive,0.6962887758781398,Targeted Therapy
+0000053,34,Stage IV,Positive,Positive,0.33987496376806614,Targeted Therapy
+0000054,58,Stage I,Negative,Negative,0.7247667715287615,Hormonal Therapy
+0000055,76,Stage I,Positive,Positive,0.06535634079894237,Radiation Therapy
+0000056,33,Stage I,Negative,Positive,0.31529033783061033,Radiation Therapy
+0000057,41,Stage III,Positive,Negative,0.5394912923753372,Targeted Therapy
+0000058,74,Stage III,Positive,Positive,0.7907231648389635,Hormonal Therapy
+0000059,31,Stage II,Negative,Negative,0.3187525029320699,Radiation Therapy
+0000060,56,Stage II,Negative,Negative,0.6258913764370091,Targeted Therapy
+0000061,60,Stage IV,Positive,Negative,0.8859777482361871,Chemotherapy
+0000062,80,Stage II,Negative,Negative,0.6158631881823046,Radiation Therapy
+0000063,80,Stage I,Positive,Negative,0.23295947475363377,Hormonal Therapy
+0000064,65,Stage I,Positive,Negative,0.02440078155653802,Hormonal Therapy
+0000065,65,Stage III,Positive,Negative,0.8700988739009299,Hormonal Therapy
+0000066,55,Stage I,Positive,Negative,0.021269410850387138,Chemotherapy
+0000067,72,Stage IV,Positive,Positive,0.8747016726841994,Radiation Therapy
+0000068,56,Stage I,Negative,Positive,0.528937134027212,Radiation Therapy
+0000069,34,Stage I,Positive,Positive,0.9390676985128962,Chemotherapy
+0000070,49,Stage IV,Positive,Positive,0.7987832357736654,Radiation Therapy
+0000071,40,Stage II,Negative,Negative,0.9979341105333375,Chemotherapy
+0000072,39,Stage II,Positive,Positive,0.35071181545171015,Chemotherapy
+0000073,69,Stage IV,Negative,Negative,0.7671882889311269,Chemotherapy
+0000074,67,Stage III,Negative,Positive,0.40193091360924216,Hormonal Therapy
+0000075,35,Stage I,Negative,Positive,0.47987562030390885,Radiation Therapy
+0000076,37,Stage IV,Positive,Positive,0.6275054632183701,Chemotherapy
+0000077,52,Stage I,Positive,Negative,0.8736771141863388,Radiation Therapy
+0000078,76,Stage III,Positive,Positive,0.9840834691992951,Hormonal Therapy
+0000079,55,Stage I,Negative,Negative,0.7682734138645182,Chemotherapy
+0000080,75,Stage IV,Positive,Negative,0.41776678216733376,Targeted Therapy
+0000081,72,Stage I,Negative,Positive,0.4213570022770702,Hormonal Therapy
+0000082,41,Stage II,Positive,Positive,0.7375823015888915,Targeted Therapy
+0000083,55,Stage III,Negative,Positive,0.23877714576830233,Radiation Therapy
+0000084,42,Stage III,Positive,Negative,0.11047411313139466,Radiation Therapy
+0000085,69,Stage III,Positive,Positive,0.35462215764077654,Hormonal Therapy
+0000086,47,Stage IV,Positive,Negative,0.28723899165408173,Radiation Therapy
+0000087,54,Stage III,Negative,Negative,0.2963081204559901,Targeted Therapy
+0000088,62,Stage II,Negative,Positive,0.23360775104990994,Chemotherapy
+0000089,76,Stage IV,Positive,Positive,0.04209318963636188,Chemotherapy
+0000090,69,Stage II,Positive,Negative,0.01787393473341381,Chemotherapy
+0000091,72,Stage I,Negative,Negative,0.9877223897360315,Hormonal Therapy
+0000092,41,Stage I,Negative,Negative,0.42777313373586234,Radiation Therapy
+0000093,73,Stage I,Negative,Positive,0.3843266471596817,Targeted Therapy
+0000094,65,Stage I,Positive,Negative,0.6796472826930698,Radiation Therapy
+0000095,77,Stage II,Negative,Positive,0.21825388786506417,Radiation Therapy
+0000096,33,Stage IV,Positive,Negative,0.9499611839502253,Radiation Therapy
+0000097,34,Stage IV,Negative,Negative,0.786345014415552,Chemotherapy
+0000098,66,Stage III,Positive,Positive,0.08941100231225951,Targeted Therapy
+0000099,37,Stage II,Negative,Negative,0.41758077578492836,Targeted Therapy
+0000100,71,Stage I,Negative,Positive,0.8791183075621647,Radiation Therapy
+0000101,78,Stage II,Negative,Positive,0.9447320222914103,Chemotherapy
+0000102,57,Stage III,Negative,Negative,0.4674015112498697,Chemotherapy
+0000103,60,Stage III,Negative,Positive,0.6134113892107077,Targeted Therapy
+0000104,38,Stage II,Positive,Positive,0.16703394609207523,Chemotherapy
+0000105,83,Stage II,Negative,Negative,0.9911686261369765,Chemotherapy
+0000106,80,Stage II,Negative,Positive,0.2316717013834434,Chemotherapy
+0000107,58,Stage IV,Negative,Positive,0.9427317741351257,Hormonal Therapy
+0000108,43,Stage I,Positive,Positive,0.6496466489923685,Radiation Therapy
+0000109,69,Stage II,Negative,Negative,0.6077367948788591,Targeted Therapy
+0000110,70,Stage II,Positive,Positive,0.5126885110165086,Targeted Therapy
+0000111,51,Stage II,Negative,Negative,0.2306698117177587,Hormonal Therapy
+0000112,40,Stage III,Negative,Negative,0.17652803200550826,Radiation Therapy
+0000113,52,Stage III,Positive,Positive,0.22048620907017535,Targeted Therapy
+0000114,30,Stage IV,Negative,Positive,0.18643826214425452,Chemotherapy
+0000115,75,Stage I,Positive,Positive,0.7795844735667533,Targeted Therapy
+0000116,66,Stage IV,Positive,Negative,0.3501252591667301,Chemotherapy

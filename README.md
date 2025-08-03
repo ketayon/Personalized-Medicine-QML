@@ -19,8 +19,8 @@ This project integrates **Quantum AI, Hybrid Workflows, and Interactive Visualiz
 
 ### 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/your-repo/QuantumAI-Biomarker
-cd QuantumAI-Biomarker
+git clone https://github.com/ketayon/Personalized-Medicine-QML.git
+cd Personalized-Medicine-Biomarker-Discovery
 ```
 
 ### 2️⃣ **Setup Virtual Environment**
@@ -99,7 +99,7 @@ pytest -v --disable-warnings tests/workflow_tests.py
 2. Get your API **Token** from **My Account**
 3. Set it in your environment:
 ```bash
-export QISKIT_IBM_TOKEN="your_ibm_quantum_token"
+export IBM_API="your_ibm_quantum_token"
 ```
 
 ---

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum AI Biomarker Discovery</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        canvas { max-width: 600px; margin: 20px auto; }
+        input, button { margin: 10px; padding: 10px; }
+    </style>
+</head>
+<body>
+
+    <h1>Quantum AI Biomarker Discovery</h1>
+
+    <h3>Enter Patient Biomarker Data</h3>
+    <input type="text" id="patientData" placeholder="0.8, 1.2, 0.5, 0.9, ..." />
+    <button onclick="getRecommendation()">Get Treatment</button>
+    <p id="treatmentResult"></p>
+
+    <h3>Patient Data Visualization</h3>
+    <canvas id="patientChart"></canvas>
+
+    <script>
+        function getRecommendation() {
+            let inputData = document.getElementById("patientData").value;
+            let patientFeatures = inputData.split(",").map(Number);
+
+            fetch("/recommend", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ "patient_features": patientFeatures })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("treatmentResult").innerText = 
+                    data.treatment ? "Recommended Treatment: " + data.treatment : "Error: " + data.error;
+            });
+        }
+
+        fetch("/patient-data")
+        .then(response => response.json())
+        .then(data => {
+            let ctx = document.getElementById("patientChart").getContext("2d");
+            let ages = data.map(p => p.Age);
+            let riskScores = data.map(p => p.Genetic_Risk_Score);
+
+            new Chart(ctx, {
+                type: "scatter",
+                data: {
+                    datasets: [{
+                        label: "Patient Risk Scores",
+                        data: ages.map((age, i) => ({ x: age, y: riskScores[i] })),
+                        backgroundColor: "rgba(75, 192, 192, 0.5)"
+                    }]
+                },
+                options: { responsive: true }
+            });
+        });
+    </script>
+
+</body>
+</html>
