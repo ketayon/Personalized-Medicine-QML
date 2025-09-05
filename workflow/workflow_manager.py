@@ -22,16 +22,13 @@ log = logging.getLogger(__name__)
 
 MODEL_PATH = "../models/NeuralNetworkClassifier_treatment_model_qnn.model"
 
-token = os.getenv("QISKIT_IBM_TOKEN")
+token = os.getenv("IBM_API")
 
 if not token:
-    raise ValueError("ERROR: QISKIT_IBM_TOKEN environment variable is not set!")
+    raise ValueError("ERROR: IBM_API environment variable is not set!")
 
-service = QiskitRuntimeService(
-    channel='ibm_quantum',
-    instance='ibm-q/open/main',
-    token=token
-)
+QiskitRuntimeService.save_account(token=token, channel="ibm_cloud", overwrite=True)
+service = QiskitRuntimeService(channel="ibm_cloud")
 
 backend = service.least_busy(operational=True, simulator=False)
 

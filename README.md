@@ -132,4 +132,3 @@ export IBM_API="your_ibm_quantum_token"
 ├── Dockerfile            # Containerization
 ├── README.md
 ```
-# Personalized-Medicine-QML
